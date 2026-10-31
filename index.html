@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A personal Windows utility for preparing music videos and uploading private review copies to the Amber Hour Noir YouTube channel.">
+  <title>Amber Hour Noir Local Uploader</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><a class="brand" href="index.html">Amber Hour Noir</a><nav aria-label="Main"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav></header>
+  <main>
+    <p class="eyebrow">Personal desktop utility</p>
+    <h1>Amber Hour Noir<br>Local Uploader</h1>
+    <p class="lead">Prepare a music video on Windows. Upload a private copy to YouTube. Review it before publishing.</p>
+    <section><h2>What the application does</h2><p>The application watches selected local project folders, checks the approved artwork and supplied media, renders the video, and prepares a captioned thumbnail, title, description, chapters and tags. It uploads the finished package to the owner's <a href="https://www.youtube.com/@AmberHourNoir">Amber Hour Noir channel</a> with private visibility.</p><p>The owner reviews the artwork and animation before rendering and decides when to publish a completed video in YouTube Studio. The application does not publish videos publicly.</p></section>
+    <section><h2>Why it connects to Google</h2><p>The application requests <code>youtube.upload</code> to upload the video and set its thumbnail, and <code>youtube.readonly</code> to verify the channel identity, uploaded video's visibility and processing state. Access is requested through Google's consent screen. The application does not ask for the Google account password.</p></section>
+    <section><h2>A local workflow</h2><p>This is a personal utility for the channel owner, not a public upload service. Rendering and project management run on the owner's computer. Connection credentials are encrypted using Windows Data Protection for the current Windows user.</p><p>Read the <a href="privacy.html">privacy policy</a> for data handling and revocation, and the <a href="terms.html">terms of use</a> for the application's scope.</p></section>
+    <section><h2>Contact</h2><p>Maintained by <a href="https://github.com/andreyyazovskih1997-ai">andreyyazovskih1997-ai</a> for Amber Hour Noir. Questions about this utility can be raised in the <a href="https://github.com/andreyyazovskih1997-ai/andreyyazovskih1997-ai.github.io/issues">website repository</a>. Do not include passwords, tokens, private media or other sensitive information in a public issue.</p></section>
+  </main>
+  <footer><span>Amber Hour Noir Local Uploader</span><span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span></footer>
+</body>
+</html>
